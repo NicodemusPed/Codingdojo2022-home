@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Easy Bay</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="page">
+        <div id="nav-bar">            
+            <div id="header-l">
+                <img id="nav-img"  src="./assets/leaf.png" alt="Icon">
+                <h1>Easy Bay</h1>
+            </div>
+            <div id="header-m">
+                <input type="text" id="searchbox" placeholder="Search our site">
+                <img id="search" src="./assets/search-dark.png"  alt="search icon">
+            </div>
+            <div id="sign-in">
+                <button>Sign In</button>
+            </div>
+                <img onclick="alert('You\'re cart is empty')"  src="./assets/cart-dark.png" alt="cart icon">
+        </div>
+
+        <div id="catagory">
+            <ul>
+                <li>Aeonium</li>
+                <li>Andormischus</li>
+                <li>Agave</li>
+                <li>Aloe</li>
+                <li>Anacampseros</li>
+                <li>Aristaloe</li>
+                <li>More...</li>
+            </ul>
+        </div>
+        <div id="header">
+            <h1>Your source for  Serious Succelent Specialties</1>
+        </div>
+
+        <div id="intro">
+            <div id="text">
+                <h2>Discover succ-ulent varieties one pot or rack at a time!</h2>
+                <p><strong>Discover</strong>
+                <img img src="./assets/arrow-light.png" alt="arrow"></p>
+            </div>
+            <div id="img-change" >
+                <img onmouseover="changeImg(this)" src="./assets/succulents-1.jpg" alt="plants">
+            </div>
+
+            <div id="col1-r">
+                <img id="aloe" src="./assets/aloe-m.jpg" alt="aloe pic">
+                <p><strong>Soothing Aloe</strong>
+                    <img onclick=removeAlert(this)  src="./assets/arrow-light.png" alt=""></p>
+            </div>
+        </div>
+        
+        <div class="row-3">
+            <div class="plant">
+                <img class="plant-img"  src="./assets/aeonium-s.jpg" alt="plant">
+                <p>aeonium</p>
+            </div>
+            <div class="plant">
+                <img class="plant-img" src="./assets/aloe-s.jpg" alt="plant">
+                <p>aloe</p>
+            </div>
+            <div class="plant">
+                <img class="plant-img" src="./assets/cactus-s.jpg" alt="plant">
+                <p>cactus</p>
+            </div>
+            <div class="plant">
+                <img class="plant-img"  src="./assets/echeveria-s.jpg" alt="plant">
+            <p>echeveria</p>
+            </div>
+            <div  class="plant">
+                <img class="plant-img" src="./assets/sedum-s.jpg" alt="plant">
+                <p>sedum</p>
+            </div>
+            <div  class="plant">
+                <img class="plant-img"  src="./assets/sempervivum-s.jpg" alt="plant">   <p>sempervivum</p>
+            </div>
+        </div>
+
+        <div id="cookie-box">
+        <img src="./assets/alert-dark.png" alt="caution symbol">
+        <p>This site makes use of third-party cookies, by clicking "I accept" you agree to the terms outlinedin our <a href="#">cookie policy.</a></p>
+        <button onclick= "closeCookie()" >I Accept </button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

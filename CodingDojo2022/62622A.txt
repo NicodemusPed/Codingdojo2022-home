@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing:border-box;
+}
+
+#nav-bar{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px opx;
+    
+}
+
+#nav-left{
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style-type: none;
+    color: white;
+
+}
+
+#nav-left a{
+    text-decoration: none;
+    color: white;
+}
+
+#sign-out-btn{
+    background-color: rgb(22,162,184);
+    padding: 10px 20px;
+    color: white;
+    font-size: 1.2rem;
+}

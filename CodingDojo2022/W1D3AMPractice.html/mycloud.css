@@ -1,0 +1,25 @@
+h1{
+    text-align: left;
+    color:white;
+    font-family: cursive;
+    font-size: 40px;
+    background-color: black;
+}
+span{
+    color: darkturquoise;
+}
+h2{
+    text-align: center;
+    color: white;
+    font: menu;
+    font-style: italic;
+    font-size: 40px;
+    background-color: blueviolet;
+}
+h3{
+    font-family: cursive;
+    text-align: right;
+    text-decoration: underline;
+    background-color: cornflowerblue;
+}
+

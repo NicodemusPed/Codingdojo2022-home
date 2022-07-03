@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Puppy Gram</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="nav-bar">
+        <h1>PuppyGram</h1>
+        <div>
+            <input type="text" placeholder="Search for a Puppy">
+            <button>Search!</button>
+        </div>
+            <button onclick="removebutton(this)">Log In</button>
+    </div>
+    <div id="main">
+        <div id="col-left">
+            <div class="puppy">
+                <div class="puppy-left">
+                    <img onmouseover="changePicture(this)" src="/PuppyGram/resources/puppy.jpeg" alt="Puppy 1">
+                    <h3>Junior</h3>
+                    <em>Male</em>
+                    <p>Breed:<em>Fox</em></p>
+                    <button onclick="alert('You liked this Puppy')">10 likes</button>
+                </div>
+                <div class="puppy-right">
+                    <p>Junior is a very spontaneous <a href="#">Fox</a> who loves to at food.</p>
+                </div>
+                <div class="puppy-left">
+                    <img src="/PuppyGram/resources/beagle.jpeg" alt="Puppy 2">
+                    <h3>Fluffy</h3>
+                    <em>Female</em>
+                    <p>Breed:<em>Beagle</em></p>
+                    <button onclick="alert('You liked this Puppy')">8 likes</button>
+                </div>
+                <div class="puppy-right">
+                    <p>Fluffy is quite, shy, and calm <a href="#">Beagle</a> who loves to eat and paly fetch.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-right">
+            <button onclick="uploadpup"(this)>Upload new Pup!</button>
+
+        </div>
+    </div>
+    <script src="script.jss"></script>
+</body>
+</html>

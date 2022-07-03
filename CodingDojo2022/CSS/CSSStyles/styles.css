@@ -1,0 +1,56 @@
+*{
+    /* color: blue; */
+}
+body{
+    background-color: aqua;
+    color: gray;
+}
+
+h1{
+    text-align: center;
+    color:chocolate;
+    font-size: 40px;
+    background-color: darkgreen;
+}
+
+h2{
+    text-align: right;
+    color:cornflowerblue;
+    text-decoration: line-through;
+    font-style: italic;
+    font-weight: 300;
+
+}
+
+h3{
+font-family:cursive;
+
+}
+
+
+span{
+    color: black;
+    
+
+}
+p{
+    color:darkkahki;
+}
+
+#p1{
+    font-style: italic;
+    color:fuchsia;
+
+}
+
+.unda{
+    text-decoration: underline;
+    color:green;
+
+}
+ol>li{
+    font-size: 28px;
+
+
+}
+

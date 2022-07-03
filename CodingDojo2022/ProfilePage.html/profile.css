@@ -1,0 +1,210 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing:border-box;
+    font-family: cursive;
+}
+
+#nav-bar{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px opx;
+    
+}
+
+#nav-left{
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style-type: none;
+    color: white;
+
+}
+
+#nav-left a{
+    text-decoration: none;
+    color: white;
+}
+
+#sign-out-btn{
+    background-color: rgb(22,162,184);
+    padding: 10px 20px;
+    color: white;
+    font-size: 1.2rem;
+}
+
+#main{
+    display: flex;
+    justify-content: space-around;    
+    padding: 20px 200px;
+}
+
+.col-left, .col-right{
+    /* outline: 5px solid green; */
+    height: 1000px;
+    margin: 10px;
+    
+}
+
+.col-left{
+    flex:2;
+    
+}
+
+#profile-card-header{
+    background-color: aqua;
+}
+
+#jane{
+    border-radius: 50%;
+    height: 150px;
+    position: relative;
+    top: 75px;
+    left: 50px;
+    border: 3px solid white;
+    box-shadow: 0px 0px 0px 3px lightgray;
+}
+
+#pbody{
+    padding-left: 50px;
+    padding-top: 80px;
+    padding-bottom: 20px;
+    border-left: solid 3px lightgray;
+    border-right: solid 3px lightgray;
+    border-bottom: solid 3px lightgray;
+}
+
+#pbody>img{
+    height: 30px;
+
+}
+
+#pbody>h2{
+    font-size: 3rem;
+    margin-bottom: 15px;
+}
+
+#pbody>span{
+    font-size: 2rem;
+    margin-left: 15px;
+}
+
+#pbody p:first-of-type{
+margin-top: 15px;
+}
+
+#pbody p:last-of-type{
+    margin-bottom: 15px;
+    }
+
+#jd{
+    font-size: 1.2rem;
+}
+
+#marker{
+    padding: 20px;
+}
+p{
+    font-size: 1.8rem;
+}
+
+.education{
+    margin-top: 30px;
+
+}
+
+.card-header{
+    background-color: darkslategrey;
+    color: white;
+    position: center;
+    padding-left: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+p{
+    font-size: 2.0rem;
+}
+
+#education-body{
+    border: 3px solid lightgray;
+    padding-left: 50px;
+    border-top: none;
+}
+
+#education-body>h2{
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    
+}
+
+#date{
+    color: gray;
+}
+
+
+p{
+    margin-bottom: 20px;
+    
+}
+
+
+
+.col-right{
+    flex:1;
+    
+}
+
+.requests{
+    margin-bottom: 20px;
+}
+
+.number{
+    background-color: rgb(204, 204, 204);
+    border-radius: 50%;
+    padding: 5px 20px;
+    color: black;
+    margin-right: 20px;
+    font-size: 2rem;
+}
+
+.person{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.card-body{
+    padding: 20px;
+    border: 3px solid lightgray;
+    border-top: none;
+}
+
+.accept-reject{
+    height: 75px;
+}
+span{
+    font-size: 3rem;
+}
+.thumbnail{
+    height: 75px;
+    border-radius: 50%;
+}
+.person span{
+    font-size: 2.5rem;
+    margin-right:  50px;   
+}
+
+.person-connection{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+#view-more{
+    border: 3px solid lightgray;
+    border-top: none;
+    padding: 10px;
+    font-size: 1.5rem;
+}
