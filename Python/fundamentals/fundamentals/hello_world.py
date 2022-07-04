@@ -1,3 +1,6 @@
+from collections import abc
+
+
 print("Hello World!")
 
 x = "Hello Python"
@@ -6,3 +9,4 @@ y = 42
 print(y)
 
 
+abc
