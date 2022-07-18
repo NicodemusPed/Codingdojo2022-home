@@ -4,7 +4,7 @@ from friend import Friend
 app = Flask( __name__ )
 @app.route( '/' )
 def index( ):
-        #call the get all classmethod to get all friends
+#call the get all classmethod to get all friends
     friends = Friend.get_all()
     print( friends )
     return render_template( "index.html" )
